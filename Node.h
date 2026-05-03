@@ -6,9 +6,9 @@
 template <typename T>
 struct Node {
     T data;
-    std::unique_ptr<Node<T>> next; // Для однозв'язного
-    std::shared_ptr<Node<T>> nextShared; // Для двозв'язного
-    std::weak_ptr<Node<T>> prev; // Для двозв'язного
+    std::unique_ptr<Node<T>> next;
+    std::shared_ptr<Node<T>> nextShared;
+    std::weak_ptr<Node<T>> prev;
 
     Node(T val) : data(val), next(nullptr), nextShared(nullptr) {}
 };

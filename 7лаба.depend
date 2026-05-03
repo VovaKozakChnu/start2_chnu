@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1777020427 source:c:\users\user\start2_chnu\main.cpp
+	<iostream>
+	<string>
+	"SinglyLinkedList.h"
+	"DoublyLinkedList.h"
+
+1777021429 c:\users\user\start2_chnu\singlylinkedlist.h
+	"Node.h"
+	<iostream>
+	<stdexcept>
+
+1777019536 c:\users\user\start2_chnu\node.h
+	<memory>
+
+1776872109 c:\users\user\start2_chnu\doublylinkedlist.h
+	"Node.h"
+	<iostream>
+	<stdexcept>
+
+1777833268 source:c:\users\user\start2_chnu\employee.cpp
+	"Employee.h"
+
+1777833268 c:\users\user\start2_chnu\employee.h
+	<string>
+	<iostream>
+
